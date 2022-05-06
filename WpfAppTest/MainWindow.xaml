@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="StyleTriggerEnterExitActions" Height="200" Width="200" UseLayoutRounding="True">
     <Grid>
-        <Button Background="LightGreen" Width="100" Height="100" BorderBrush="Green">
+        <Button  Background="LightGreen" Width="100" Height="100" BorderBrush="Green">
+            <TextBlock>First Commit  A </TextBlock>
             <Button.Style>
                 <Style TargetType="Button">
                     <Style.Triggers>
