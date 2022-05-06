@@ -23,6 +23,12 @@ namespace WpfAppTest
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = this; 
+        }
+
+        private void button_click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Fourth Commit D after reset")
         }
     }
 }
